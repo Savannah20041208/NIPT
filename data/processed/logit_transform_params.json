@@ -1,0 +1,13 @@
+{
+  "epsilon": 1e-06,
+  "threshold_original": 0.04,
+  "threshold_logit": -3.1780538303479453,
+  "original_range": [
+    0.010003887,
+    0.234217554
+  ],
+  "logit_range": [
+    -4.594727299388531,
+    -1.1846477149600396
+  ]
+}
