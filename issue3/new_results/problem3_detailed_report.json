@@ -1,0 +1,176 @@
+{
+  "分析方法": "基于BMI分组的综合风险最小化NIPT时点优化",
+  "分组方法": "改进的自然断点分组算法",
+  "分组数量": 4,
+  "拟合优度": 0.7677320606642611,
+  "分组详情": {
+    "组0": {
+      "BMI区间": [
+        20.703125,
+        29.7475745109286
+      ],
+      "BMI均值": 28.696109218689443,
+      "BMI标准差": 1.1751159142098402,
+      "样本数": 63,
+      "最佳检测时点": 15.5,
+      "达标比例": 0.9361702127659575,
+      "风险等级": "中等风险",
+      "风险评分": 2,
+      "候选时点数": 7
+    },
+    "组1": {
+      "BMI区间": [
+        29.7475745109286,
+        31.22130395
+      ],
+      "BMI均值": 30.34654628332522,
+      "BMI标准差": 0.3833869095500548,
+      "样本数": 64,
+      "最佳检测时点": 15.1,
+      "达标比例": 0.9347826086956522,
+      "风险等级": "中等风险",
+      "风险评分": 2,
+      "候选时点数": 7
+    },
+    "组2": {
+      "BMI区间": [
+        31.22130395,
+        33.1123119118124
+      ],
+      "BMI均值": 32.14022474784564,
+      "BMI标准差": 0.5690048162152039,
+      "样本数": 63,
+      "最佳检测时点": 15.1,
+      "达标比例": 0.9615384615384616,
+      "风险等级": "中等风险",
+      "风险评分": 2,
+      "候选时点数": 7
+    },
+    "组3": {
+      "BMI区间": [
+        33.1123119118124,
+        39.15984336
+      ],
+      "BMI均值": 34.63159943051927,
+      "BMI标准差": 1.3870779729618752,
+      "样本数": 64,
+      "最佳检测时点": 17.2,
+      "达标比例": 0.7380952380952381,
+      "风险等级": "高风险",
+      "风险评分": 3,
+      "候选时点数": 7
+    }
+  },
+  "误差分析": {
+    "轻度误差": {
+      "0": {
+        "original_ratio": 1.0,
+        "corrected_ratio": 0.9224137931034483,
+        "ratio_change": -0.07758620689655171,
+        "original_time": 15.5,
+        "corrected_time": 16.0,
+        "time_adjustment": 0.5
+      },
+      "1": {
+        "original_ratio": 1.0,
+        "corrected_ratio": 0.9208333333333333,
+        "ratio_change": -0.07916666666666672,
+        "original_time": 15.1,
+        "corrected_time": 15.6,
+        "time_adjustment": 0.5
+      },
+      "2": {
+        "original_ratio": 1.0,
+        "corrected_ratio": 0.9132231404958677,
+        "ratio_change": -0.08677685950413228,
+        "original_time": 15.1,
+        "corrected_time": 15.6,
+        "time_adjustment": 0.5
+      },
+      "3": {
+        "original_ratio": 1.0,
+        "corrected_ratio": 0.895397489539749,
+        "ratio_change": -0.10460251046025104,
+        "original_time": 17.2,
+        "corrected_time": 18.2,
+        "time_adjustment": 1.0
+      }
+    },
+    "中度误差": {
+      "0": {
+        "original_ratio": 1.0,
+        "corrected_ratio": 0.9525862068965517,
+        "ratio_change": -0.04741379310344829,
+        "original_time": 15.5,
+        "corrected_time": 15.5,
+        "time_adjustment": 0
+      },
+      "1": {
+        "original_ratio": 1.0,
+        "corrected_ratio": 0.9083333333333333,
+        "ratio_change": -0.09166666666666667,
+        "original_time": 15.1,
+        "corrected_time": 15.6,
+        "time_adjustment": 0.5
+      },
+      "2": {
+        "original_ratio": 1.0,
+        "corrected_ratio": 0.8925619834710744,
+        "ratio_change": -0.1074380165289256,
+        "original_time": 15.1,
+        "corrected_time": 16.1,
+        "time_adjustment": 1.0
+      },
+      "3": {
+        "original_ratio": 1.0,
+        "corrected_ratio": 0.899581589958159,
+        "ratio_change": -0.10041841004184104,
+        "original_time": 17.2,
+        "corrected_time": 18.2,
+        "time_adjustment": 1.0
+      }
+    },
+    "重度误差": {
+      "0": {
+        "original_ratio": 1.0,
+        "corrected_ratio": 0.9224137931034483,
+        "ratio_change": -0.07758620689655171,
+        "original_time": 15.5,
+        "corrected_time": 16.0,
+        "time_adjustment": 0.5
+      },
+      "1": {
+        "original_ratio": 1.0,
+        "corrected_ratio": 0.9291666666666667,
+        "ratio_change": -0.0708333333333333,
+        "original_time": 15.1,
+        "corrected_time": 15.6,
+        "time_adjustment": 0.5
+      },
+      "2": {
+        "original_ratio": 1.0,
+        "corrected_ratio": 0.8884297520661157,
+        "ratio_change": -0.11157024793388426,
+        "original_time": 15.1,
+        "corrected_time": 16.1,
+        "time_adjustment": 1.0
+      },
+      "3": {
+        "original_ratio": 1.0,
+        "corrected_ratio": 0.899581589958159,
+        "ratio_change": -0.10041841004184104,
+        "original_time": 17.2,
+        "corrected_time": 18.2,
+        "time_adjustment": 1.0
+      }
+    }
+  },
+  "技术特色": [
+    "Y染色体浓度回归综合算法",
+    "预测达标指示函数",
+    "改进的自然断点分组算法",
+    "约束最小化搜索算法",
+    "检测误差影响分析",
+    "敏感性分析验证"
+  ]
+}
